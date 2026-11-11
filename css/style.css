@@ -1,0 +1,79 @@
+:root {
+  --bg-pudding-yellow: #FFF59D;  /* 網頁背景：布丁黃 */
+  --card-cream-white: #FFFDE7;   /* 卡片背景：奶油白 */
+  --caramel-brown: #5D4037;      /* 框框與文字：焦糖棕 */
+  --border-radius-lg: 20px;      /* 大圓角（容器/Hero） */
+  --border-radius-md: 16px;      /* 中圓角（卡片） */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg-pudding-yellow);
+  color: var(--caramel-brown);
+  font-family: "Hiragino Maru Gothic ProN", "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", sans-serif;
+  line-height: 1.7;
+}
+
+.container, .hero { width: min(1100px, 100% - 32px); margin-inline: auto; }
+
+/* Hero */
+.hero {
+  margin-top: 24px;
+  padding: 32px;
+  background: var(--card-cream-white);
+  border: 2px solid var(--caramel-brown);
+  border-radius: var(--border-radius-lg);
+  display: grid;
+  grid-template-columns: minmax(180px, 320px) 1fr;
+  gap: 32px;
+  align-items: center;
+}
+.hero-img, .card-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: var(--bg-pudding-yellow);
+  border: 2px solid var(--caramel-brown);
+  border-radius: var(--border-radius-lg);
+}
+.hero h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.2; }
+.hero .en { margin: 4px 0 16px; font-size: 1.25rem; letter-spacing: .08em; }
+.hero dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; }
+.hero dt { font-weight: 700; }
+.hero dd { margin: 0; }
+
+.section-title { margin: 40px 0 16px; font-size: 1.6rem; }
+
+/* Card grid: 桌面 4 欄 → 平板 2 欄 → 手機 1 欄 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card {
+  background: var(--card-cream-white);
+  border: 2px solid var(--caramel-brown);
+  border-radius: var(--border-radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card .card-img { border-radius: var(--border-radius-md); }
+.card h3 { margin: 4px 0 0; font-size: 1.25rem; }
+.card .en { margin: 0; font-size: .9rem; }
+.card dl { margin: 8px 0 0; font-size: .92rem; }
+.card dt { font-weight: 700; margin-top: 6px; }
+.card dd { margin: 0; }
+
+.status, .footer { text-align: center; }
+.footer { margin: 40px 0 24px; font-size: .85rem; }
+
+@media (max-width: 1024px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px) {
+  .hero { grid-template-columns: 1fr; padding: 20px; text-align: center; }
+  .hero dl { text-align: left; }
+}
+@media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }

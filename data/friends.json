@@ -1,0 +1,172 @@
+[
+  {
+    "id": "purin",
+    "name_zh": "布丁狗",
+    "name_en": "Pompompurin",
+    "birthday": "4月16日",
+    "personality_hobbies": "性格悠閒隨和、步調慢條斯理。喜歡喝牛奶、吃軟綿綿的食物與媽媽做的焦糖布丁；興趣是蒐集鞋子、睡午覺與跳布丁體操。最喜歡的詞是「出去玩」，最討厭的詞是「看家」",
+    "relation_to_purin": "本尊主角（黃金獵犬男孩）",
+    "features": "招牌特徵是頭戴深焦糖色的貝雷帽，屁股上有個「＊」標記。住在飼主家玄關的布丁專用籃子裡，夢想是長得越來越大",
+    "image_url": "assets/images/purin.png"
+  },
+  {
+    "id": "muffin",
+    "name_zh": "瑪芬",
+    "name_en": "Muffin",
+    "birthday": "9月16日",
+    "personality_hobbies": "精明鬼靈精、愛吃又喜歡藏東西。性格大膽直率，講話常帶有「～でちゅう」的口癖",
+    "relation_to_purin": "布丁狗最要好的死黨好友（黃金倉鼠）",
+    "features": "頭上也戴著一頂小貝雷帽，身形嬌小，最常停在布丁狗頭頂或藏進布丁狗的貝雷帽裡",
+    "image_url": "assets/images/muffin.png"
+  },
+  {
+    "id": "scone",
+    "name_zh": "司康",
+    "name_en": "Scone",
+    "birthday": "2月16日",
+    "personality_hobbies": "認真勤勞、有責任感且非常可靠的好夥伴",
+    "relation_to_purin": "布丁狗的好朋友（老鼠）",
+    "features": "體型嬌小，做事認真賣力，是 Team Purin 裡不可或缺的苦幹實幹型成員",
+    "image_url": "assets/images/scone.png"
+  },
+  {
+    "id": "bagel",
+    "name_zh": "貝果",
+    "name_en": "Bagel",
+    "birthday": "8月16日",
+    "personality_hobbies": "充滿活力、幹勁十足，非常喜歡吃甜食與各式堅果",
+    "relation_to_purin": "布丁狗的好朋友（松鼠）",
+    "features": "擁有圓滾滾大眼睛與一根大大的捲捲尾巴，總是活力充沛",
+    "image_url": "assets/images/bagel.png"
+  },
+  {
+    "id": "macaron",
+    "name_zh": "馬卡龍",
+    "name_en": "Macaron",
+    "birthday": "3月3日",
+    "personality_hobbies": "喜歡時尚、打扮與蒐集精致可愛飾品，最喜歡漂亮的蝴蝶結",
+    "relation_to_purin": "布丁狗心儀的鄰居女孩（白色黃金獵犬）",
+    "features": "全身覆蓋蓬鬆雪白的捲毛，頭上戴著顯眼的粉紅色大蝴蝶結",
+    "image_url": "assets/images/macaron.png"
+  },
+  {
+    "id": "custard",
+    "name_zh": "卡士達",
+    "name_en": "Custard",
+    "birthday": "5月15日",
+    "personality_hobbies": "熱愛尋找幸福，個性活潑開朗，總是為大家帶來歡笑",
+    "relation_to_purin": "布丁狗的好朋友（小黃鳥）",
+    "features": "全身鮮黃色的小鳥，風吹走布丁狗的貝雷帽時會幫忙撿回來，常停在布丁狗頭上",
+    "image_url": "assets/images/custard.png"
+  },
+  {
+    "id": "mint",
+    "name_zh": "薄荷",
+    "name_en": "Mint",
+    "birthday": "6月6日",
+    "personality_hobbies": "元氣滿滿、好勝心強不服輸，特技是跳高",
+    "relation_to_purin": "布丁狗的好朋友（青蛙）",
+    "features": "亮綠色的體色，非常活潑好動",
+    "image_url": "assets/images/mint.png"
+  },
+  {
+    "id": "powder",
+    "name_zh": "麵粉/粉粉",
+    "name_en": "Powder",
+    "birthday": "12月12日",
+    "personality_hobbies": "人很好、性格溫柔，但稍微有點害羞怕生",
+    "relation_to_purin": "布丁狗的好朋友（兔子女孩）",
+    "features": "粉紅色的長耳朵與可愛的兔子造型",
+    "image_url": "assets/images/powder.png"
+  },
+  {
+    "id": "whip",
+    "name_zh": "奶油",
+    "name_en": "Whip",
+    "birthday": "6月16日",
+    "personality_hobbies": "非常愛撒嬌、喜歡跟在大家身邊",
+    "relation_to_purin": "布丁狗的好朋友（企鵝）",
+    "features": "造型圓滾可愛的小企鵝",
+    "image_url": "assets/images/whip.png"
+  },
+  {
+    "id": "tart",
+    "name_zh": "蛋塔",
+    "name_en": "Tart",
+    "birthday": "10月10日",
+    "personality_hobbies": "好奇心旺盛，最喜歡充滿刺激的冒險",
+    "relation_to_purin": "布丁狗的好朋友（垂耳兔）",
+    "features": "擁有兩隻下垂大耳朵的垂耳兔",
+    "image_url": "assets/images/tart.png"
+  },
+  {
+    "id": "coconut",
+    "name_zh": "椰子",
+    "name_en": "Coconut",
+    "birthday": "7月2日",
+    "personality_hobbies": "開朗樂觀、陽光活潑",
+    "relation_to_purin": "布丁狗的好朋友（猴子）",
+    "features": "充滿活力的小猴子夥伴",
+    "image_url": "assets/images/coconut.png"
+  },
+  {
+    "id": "syrup",
+    "name_zh": "楓糖",
+    "name_en": "Syrup",
+    "birthday": "4月6日",
+    "personality_hobbies": "最喜歡夏天、海邊與飛翔",
+    "relation_to_purin": "布丁狗的好朋友（海鷗）",
+    "features": "白色的海鷗夥伴",
+    "image_url": "assets/images/syrup.png"
+  },
+  {
+    "id": "vanilla",
+    "name_zh": "香草",
+    "name_en": "Vanilla",
+    "birthday": "1月3日",
+    "personality_hobbies": "最喜歡吃冰淇淋",
+    "relation_to_purin": "布丁狗的好朋友（白熊）",
+    "features": "圓滾滾又雪白的白熊",
+    "image_url": "assets/images/vanilla.png"
+  },
+  {
+    "id": "papa",
+    "name_zh": "布丁狗爸爸",
+    "name_en": "Papa",
+    "birthday": "8月8日",
+    "personality_hobbies": "喜歡講諧音冷笑話，性格風趣",
+    "relation_to_purin": "布丁狗的父親（黃金獵犬）",
+    "features": "職業是探長/偵探，常戴著煙斗與偵探帽",
+    "image_url": "assets/images/papa.png"
+  },
+  {
+    "id": "mama",
+    "name_zh": "布丁狗媽媽",
+    "name_en": "Mama",
+    "birthday": "8月8日",
+    "personality_hobbies": "手藝極佳，在蛋糕店工作，最擅長做布丁狗最愛的焦糖布丁",
+    "relation_to_purin": "布丁狗的母親（黃金獵犬）",
+    "features": "溫柔慈祥，常穿著粉紅色的圍裙",
+    "image_url": "assets/images/mama.png"
+  },
+  {
+    "id": "grandpa",
+    "name_zh": "布丁狗爺爺",
+    "name_en": "Grandpa",
+    "birthday": "9月15日",
+    "personality_hobbies": "年輕時熱愛環遊世界冒險，知識淵博，幾乎沒有不知道的事",
+    "relation_to_purin": "布丁狗的祖父（黃金獵犬）",
+    "features": "經常向布丁狗講述世界各地的冒險故事",
+    "image_url": "assets/images/grandpa.png"
+  },
+  {
+    "id": "grandma",
+    "name_zh": "布丁狗奶奶",
+    "name_en": "Grandma",
+    "birthday": "3月14日",
+    "personality_hobbies": "總是帶著微笑、個性溫和且非常喜歡聊天",
+    "relation_to_purin": "布丁狗的祖母（黃金獵犬）",
+    "features": "慈祥親切，擅長說故事",
+    "image_url": "assets/images/grandma.png"
+  }
+]
